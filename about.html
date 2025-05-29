@@ -43,15 +43,24 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" >Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
+          <!-- <li><a href="about.html" class="active">About</a></li> -->
+          <li class="dropdown"><a href="about.html"><span>Company</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="about.html#CompanyOverview">Company Overview</a></li>
+              <li><a href="about.html#visionmission">Vision & Mission</a></li>
+              <li><a href="about.html#directorboard">Director Board</a></li>
+              <li><a href="about.html#relationships">Our Relationships</a></li>
+            </ul>
+          </li>
           <li><a href="services.html">Services</a></li>
           <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Water Supply and Sewerage</a></li>
               <li><a href="buildings.html">Buildings</a></li>
-              <li><a href="#">Sewer Projects</a></li>
-              <li><a href="#">Highways and Bridges</a></li>
-              <li><a href="#">Power of Energy</a></li>            
+              <li><a href="ports.html">Ports</a></li>
+              <li><a href="Power of Energy.html">Power of Energy</a></li>
+              <li><a href="water-supply-and-sewerage.html">Water Supply and Sewerage</a></li>              
+              <li><a href="Sewer Projects.html">Sewer Projects</a></li>
+              <li><a href="Highways and Bridges.html">Highways and Bridges</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -67,18 +76,18 @@
     <!-- Page Title -->
     <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
       <div class="container position-relative">
-        <h1>About Us</h1>
+        <h1>Company</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html" style="color: rgb(197, 195, 195);">Home</a></li>
-            <li class="current">About</li>
+            <li class="current">Company</li>
           </ol>
         </nav>
       </div>
     </div>
 
     <!-- About -->
-    <section id="about" class="about section">
+    <section id="CompanyOverview" class="about section">
       <div class="container">
         <div class="row position-relative">
           <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/about.jpeg"></div>
@@ -99,7 +108,7 @@
               </ul> -->
               <div class="watch-video d-flex align-items-center position-relative">
                 <i class="bi bi-play-circle"></i>
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
+                <a href="#" class="glightbox stretched-link">Watch Video</a>
               </div>
             </div>
           </div>
@@ -150,7 +159,7 @@
     </section>
 
     <!-- vision & mission Section -->
-    <section id="alt-services" class="alt-services section">
+    <section id="visionmission" class="alt-services section">
       <div class="container">
         <div class="row justify-content-around gy-4">
           <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/alt-services.jpg" alt=""></div>
@@ -168,8 +177,8 @@
       </div>
     </section>
 
-    <!-- Executives Section -->
-    <section id="executives" class="section py-5 bg-white">
+    <!-- Directors Section -->
+    <section id="directorboard" class="section py-5 bg-white">
       <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
           <h2 class="fw-bold">Meet our leadership team driving the company forward.</h2>
@@ -181,7 +190,7 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="bg-light p-4 rounded shadow-sm h-100">
               <div class="text-center">
-                <img src="assets\img\team\team-5.jpg" alt="Chairman" class="img-fluid rounded shadow mb-3" style="max-height: 300px;">
+                <img src="assets\img\team\user-image.jpg" alt="Chairman" class="img-fluid rounded shadow mb-3" style="max-height: 300px;">
                 <h4 class="text-primary">Mr. M.U.S. Mudaligedara</h4>
                 <div class="d-flex justify-content-center align-items-center mt-2">
                   <i class="bi bi-patch-check-fill text-success fs-4 me-2"></i>
@@ -195,7 +204,7 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="bg-light p-4 rounded shadow-sm h-100">
               <div class="text-center">
-                <img src="assets\img\team\team-3.jpg" alt="CEO" class="img-fluid rounded shadow mb-3" style="max-height: 300px;">
+                <img src="assets\img\team\user-image.jpg" alt="CEO" class="img-fluid rounded shadow mb-3" style="max-height: 300px;">
                 <h4 class="text-primary">Mr. Lakmal Perera</h4>
                 <div class="d-flex justify-content-center align-items-center mt-2">
                   <i class="bi bi-person-badge-fill text-info fs-4 me-2"></i>
@@ -209,7 +218,7 @@
     </section>
 
     <!-- Our Relationships -->
-    <section id="alt-services" class="alt-services section bg-light py-5">
+    <section id="relationships" class="alt-services section bg-light py-5">
       <div class="container">
         <div class="row justify-content-center gy-4">
           <div class="col-lg-10 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -262,10 +271,6 @@
         </div>
       </div>
     </section>
-
-    
-
-
 
     <!-- Why M U S Construction Section -->
     <section id="features-cards" class="features-cards section">
